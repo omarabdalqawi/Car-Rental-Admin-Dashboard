@@ -17,3 +17,20 @@
 1. Clone the repository:
 ```bash
 git clone https://github.com/USERNAME/Car-Rental-Admin-Dashboard.git
+
+2.Install dependencies:
+```bash
+composer install
+npm install && npm run dev
+
+3.Setup environment:
+```bash
+cp .env.example .env
+php artisan key:generate
+4.Run migrations:
+```bash
+php artisan migrate
+5.Serve the project:
+```bash
+php artisan serve
+
